@@ -32,11 +32,12 @@ if($num01 && $num02){
     </style>
     </head>
     <body>
+    <link rel="stylesheet" href="style.css">
         <h1><?=$resul;?></h1>
         <form method="post">
-            <label>Número 1: <input type="text" name="txtNumero1"/></label><br>
-            <label>Número 2: <input type="text" name="txtNumero2"/></label><br>
-            <label>Operação:
+           <h2><label>Número 1: <input type="text" name="txtNumero1"/></label><br></h2>
+           <h3><label>Número 2: <input type="text" name="txtNumero2"/></label><br></h3>
+           <h4><label>Operação:</h4>
                 <select name="slOperacao">
                 <option value="+">Adição</option>
                 <option value="-">Subtração</option>
